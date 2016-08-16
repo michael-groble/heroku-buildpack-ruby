@@ -717,7 +717,7 @@ database = (uri.path || "").split("/")[1]
 
 username = uri.user
 password = uri.password
-password = URI.unescape(uri.password) if password
+password = URI.unescape(password) if password
 
 host = uri.host
 port = uri.port
